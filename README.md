@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 - Студент: [Любовь Коничняк](https://up.htmlacademy.ru/adaptive/32/user/2546567).
-- Наставник: `Антон Варнавский`.
+- Наставник: [Антон Варнавский](https://htmlacademy.ru/profile/anton_varnauski).
 
 ---
 
