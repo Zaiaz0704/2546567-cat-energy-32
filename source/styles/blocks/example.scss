@@ -278,7 +278,14 @@
 .example__pictures {
   position: relative;
   display: flex;
+  justify-content: flex-start;
+  width: 280px;
   margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 560px;
+    height: 512px;
+  }
 
   @media (min-width: $desktop-width) {
     width: 50%;
@@ -286,11 +293,37 @@
 }
 
 .example__before {
+  position: relative;
   display: flex;
+  width: 140px;
+  height: 256px;
+  overflow: hidden;
+
+  @media (min-width: $tablet-width) {
+    width: 50%;
+    height: 512px;
+  }
+}
+
+.example__before-img {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 70px;
   width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  overflow: visible;
+  z-index: 1;
+
+  @media (min-width: $tablet-width) {
+    top: 3px;
+    left: 142px;
+  }
 
   @media (min-width: $desktop-width) {
-    padding-left: 50px;
+    left: 165px;
   }
 }
 
@@ -300,7 +333,6 @@
   display: flex;
   width: 50%;
   height: 100%;
-  background-color: $special_grey-light;
   overflow: hidden;
 
   img {
@@ -310,16 +342,12 @@
   }
 
   @media (min-width: $tablet-width) {
-    background-image: linear-gradient(to bottom, $basic_white 30%, $special_grey-light 30% 100%);
-
     img {
       left: -138px;
     }
   }
 
   @media (min-width: $desktop-width) {
-    background-image: linear-gradient(to bottom, $basic_white 23%, $special_grey-light 23% 100%);
-
     img {
       left: -165px;
     }
@@ -334,6 +362,11 @@
   display: flex;
   width: 40px;
   height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  font-size: 0;
 
   background-image: url("../../images/renge-default@2x.png");
   background-repeat: no-repeat;

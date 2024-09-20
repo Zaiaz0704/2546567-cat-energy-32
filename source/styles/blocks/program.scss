@@ -87,7 +87,7 @@
 
   @media (min-width: $desktop-width) {
     width: 570px;
-    height: 374px;
+    min-height: 374px;
     padding: 29.5px 52px 65px;
 
     &::after {

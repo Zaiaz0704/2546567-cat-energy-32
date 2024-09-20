@@ -100,8 +100,7 @@
 
     &::before {
       position: absolute;
-      top: auto;
-      bottom: 55px;
+      top: 0;
       left: 105px;
       content: "";
       width: 112px;
@@ -109,7 +108,6 @@
       background-image: url("../../icons/one.svg");
       z-index: 0;
     }
-
 
     &::after {
       top: 0;
@@ -144,8 +142,6 @@
 
     &::before {
       position: absolute;
-      top: auto;
-      bottom: 55px;
       left: 111px;
       content: "";
       width: 134px;
@@ -172,8 +168,6 @@
 
     &::before {
       position: absolute;
-      top: auto;
-      bottom: 50px;
       left: 113px;
       content: "";
       width: 134px;
@@ -204,8 +198,6 @@
 
     &::before {
       position: absolute;
-      top: auto;
-      bottom: 54px;
       left: 116px;
       content: "";
       width: 136px;

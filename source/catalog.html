@@ -5,17 +5,21 @@
   <meta charset="UTF-8">
   <title>Cat energy</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="favicons/favicon.ico">
   <link rel="icon" type="image/png" href="favicons/favicon16x16.png" sizes="16x16">
   <link rel="icon" type="image/png" href="favicons/favicon32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="favicons/favicon152x152.png" sizes="180x180">
+  <link rel="preload" href="styles/styles.css" as="style">
+  <link rel="preload" href="scripts/index.js" as="script">
+
+  <link rel="stylesheet" href="styles/styles.css">
   <script src="scripts/index.js" defer></script>
 </head>
 
 <body class="body">
   <header class="header" data-test="header">
 
-    <a class="header__logo-link" href="#">
+    <a class="header__logo-link" href="index.html">
       <picture>
         <source media="(min-width: 1440px)" srcset="images/logo-desktop.svg" width="70" height="59" type="image/svg+xml">
         <source media="(min-width: 768px)" srcset="images/logo-tablet.svg" width="60" height="50" type="image/svg+xml">

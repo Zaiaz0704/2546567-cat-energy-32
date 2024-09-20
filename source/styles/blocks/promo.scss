@@ -5,7 +5,7 @@
   width: 100%;
   font-family: $secondary;
   color: $basic_white;
-  background-image: url("../../images/green-can-mobil@1x.png"), linear-gradient(to bottom, $basic-green-two 302px, $basic_white 50%,);
+  background-image: url("../../images/green-can-mobil@1x.jpg"), linear-gradient(to bottom, $basic-green-two 302px, $basic_white 302px,);
   background-size: 320px auto, 100%;
   background-repeat: no-repeat;
   background-position: top;
@@ -17,9 +17,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    background-image: url("../../images/green-cat-desktop@1x.png"), linear-gradient(to right, $basic_white 50%, $basic-green-two 50%);
-    background-size: auto 100%;
-    background-position: right;
+    background-image: url("../../images/green-cat-desktop@1x.jpg"), linear-gradient(to right, $basic_white 50%, $basic-green-two 50%);
+    background-size: 720px 694px, 100%;
+    background-position: right bottom;
   }
 }
 
@@ -67,6 +67,7 @@
 
   @media (min-width: $desktop-width) {
     color: $basic_black;
+    width: 50%;
     margin: 0;
     margin-top: 199px;
     margin-bottom: 40px;
